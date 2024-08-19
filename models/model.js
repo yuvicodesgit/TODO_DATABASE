@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/TODO").then(console.log("DB connected"));
+mongoose.connect("mongodb+srv://mirrorgamingtv:ZyFttzcNL7Gbp8FY@todo-db.2gre3.mongodb.net/?retryWrites=true&w=majority&appName=todo-db").then(console.log("DB connected"));
 
 const todo = mongoose.Schema({
     title : {
